@@ -74,6 +74,14 @@ body {
 }
 
 /* main page */
+.container { 
+  max-width: 
+  padding-left:  
+  padding-right:  
+  margin-left:  
+  margin-right:  
+  }
+
 
 .main-section {
   background-color: var(--navyblue);
