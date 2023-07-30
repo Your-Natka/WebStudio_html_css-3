@@ -156,6 +156,7 @@ img {
   margin: 0 auto;
 }
 .list {
+  padding: 0;
   display: flex;
   list-style: none;
   margin: 0 auto;
