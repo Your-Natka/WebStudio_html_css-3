@@ -101,7 +101,7 @@ img {
 /* SECTION ONE */
 .main-section {
   background-color: var(--navyblue);
-  padding: 188px;
+  padding: 188px 0;
   flex-shrink: 0;
 }
 .visually-hidden {
@@ -129,7 +129,7 @@ img {
   border: 1px solid var(--cornflower, #4D5AE5);
   margin: 48px;
   background: var(--iris, #4D5AE5);
-  display: inline-flex;
+  display: block;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;  
@@ -142,11 +142,14 @@ img {
   color: var(--white);
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .main-button:hover,
 .main-button:focus {
   background-color: var(--ocean);
-  cursor: pointer;
 }
 
 /* SECTION TWO */
@@ -156,6 +159,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  margin-bottom: 8px;
 }
 .section-two {
   padding: 120px 0;
@@ -169,7 +173,7 @@ img {
   margin-right: 0;
 } 
 .two-items {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .main-paragraph {
   font-size: 16px;
@@ -194,9 +198,10 @@ img {
 .section-three-list {
   display: flex;
   gap: 24px;
+  flex-basis: calc((100% - 48px) / 3);
 }
 .section-three-list-item {
-  width: calc((100% - 48px) / 3);
+  width: calc((100% - 3 * 16px) / 3)
 }
 /* SECTION FOUR */
 .main-section-four {
