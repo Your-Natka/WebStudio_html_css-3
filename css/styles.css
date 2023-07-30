@@ -11,6 +11,9 @@ body {
   --ocean: #404bbf;
   --cloud: #f4f4fd;
 }
+img {
+  display: block;
+}
 
 /* TOP LINE */
 /* HEADER CSS */
@@ -18,16 +21,23 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-flex {
+  margin: 0 auto;
   display: flex;
   align-items: center;
 }
-
+.container { 
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+}
 .link {
   text-decoration: none;
   display: inline-block;
-}
-img {
-  display: block;
 }
 .logo {
   margin-right: 76px;
@@ -42,12 +52,15 @@ img {
 .studio-color {
   color: var(--navyblue);
 }
-.nav {
+.list {
+  padding: 0;
   display: flex;
-  align-items: center;
-  font-family: 'Roboto';
+  list-style: none;
+  margin: 0 auto;
 }
 .nav-list {
+  margin: 0 auto;
+  padding: 0;
   display: flex;
   gap: 40px;
 }
@@ -149,17 +162,6 @@ img {
 /* SECTION TWO */
 .section-two {
   padding: 120px 0;
-}
-.container { 
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-.list {
-  padding: 0;
-  display: flex;
-  list-style: none;
-  margin: 0 auto;
 }
 .list-two {
   display: flex;
