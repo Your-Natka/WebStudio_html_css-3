@@ -14,7 +14,6 @@ body {
 .container {
   width: 1158px;
   padding: 0 15px;
-  margin: 0 auto;
 }
 
 /* TOP LINE */
@@ -25,6 +24,7 @@ body {
 .header-flex {
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 .list {
   list-style: none;
@@ -165,7 +165,6 @@ img {
   padding: 120px 0;
 }
 .list-two {
-
   display: flex;
   gap: 24px;
 }
@@ -173,7 +172,7 @@ img {
   margin-right: 0;
 } 
 .two-items {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .main-paragraph {
   font-size: 16px;
@@ -198,7 +197,6 @@ img {
 .section-three-list {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 .section-three-list-item {
   width: calc((100% - 3 * 16px) / 3)
