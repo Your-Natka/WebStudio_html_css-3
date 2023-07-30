@@ -23,12 +23,17 @@ body {
 }
 .header-flex {
   display: flex;
+  align-items: center;
 }
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
+  display: inline-block;
+}
+img {
+  display: block;
 }
 .logo {
   color: var(--iris);
