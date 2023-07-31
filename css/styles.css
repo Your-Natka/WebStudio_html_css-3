@@ -1,8 +1,3 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
 :root {
   --navyblue: #2e2f42;
   --iris: #4d5ae5;
@@ -14,7 +9,11 @@ body {
 img {
   display: block;
 }
-
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
 /* TOP LINE */
 /* HEADER CSS */
 
