@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+  margin: o auto;
 }
 :root {
   --navyblue: #2e2f42;
