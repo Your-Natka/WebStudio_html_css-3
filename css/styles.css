@@ -14,24 +14,13 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-body,
-nav,
-a,
-address,
-header,
-img,
-main,
-section,
-footer,
-.container .link,
-.link .logo,
-.footer-paragraph h1,
+h1,
 h2,
 h3,
+h4,
 p,
-ul,
-li,
-button {
+ul
+ {
   list-style-type: none;
   margin: 0;
   padding: 0;
