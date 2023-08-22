@@ -44,7 +44,7 @@ button {
 }
 .header-flex {
   align-self: auto;
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
   align-items: center;
 }
@@ -63,7 +63,6 @@ button {
   display: inline-block;
 }
 .logo {
-  margin-right: 76px;
   color: var(--iris);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -75,6 +74,7 @@ button {
 .studio-color {
   color: var(--navyblue);
   margin-right: 76px;
+  
 }
 .list {
   padding: 0;
@@ -97,7 +97,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
+ 
 }
 .nav-link:hover,
 .nav-link:focus {
