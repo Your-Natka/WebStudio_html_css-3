@@ -257,6 +257,7 @@ button {
   padding: 100px 0;
 }
 .footer-paragraph {
+  margin-top: 16px;
   display: flex;
   line-height: 1.5;
   color: var(--cloud);
