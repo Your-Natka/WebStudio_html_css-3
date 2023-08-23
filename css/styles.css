@@ -37,10 +37,11 @@ ul
   display: flex;
   align-items: center;
 }
-.container { 
+.container {  
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  padding: 0 auto;
 }
 .nav {
   display: flex;
@@ -137,6 +138,7 @@ ul
   overflow: hidden;
   }
 .main-title { 
+  margin: 0 auto;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -147,7 +149,7 @@ ul
 }
 .main-button {
   border: 1px solid var(--cornflower, #4D5AE5);
-  margin: 48px;
+  margin: 0 auto;
   background: var(--iris, #4D5AE5);
   display: block;
   padding: 16px 32px;
@@ -245,7 +247,6 @@ ul
   padding: 100px 0;
 }
 .footer-paragraph {
-  margin-top: 16px;
   display: flex;
   line-height: 1.5;
   color: var(--cloud);
@@ -262,27 +263,29 @@ ul
 
 /* PORTFOLIO MAIN  */
 .portfolio-main {
-  padding-top: 96px;
-  padding-bottom: 120px;
+ margin: 0 auto;
 }
 .portfolio-container {
-  padding: 96px 0 120px 0;
+  margin: 0 auto;
 }
 .list-portfolio {
-  display: flex;
+  display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+  margin: 0 auto;
 }
-.buttons {
+.button {
+  margin-bottom: 72px;
   list-style: none;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
   display: flex;
-  padding: 120px 0;
 }
-.btn-menu {
+.btn-menu { 
+  margin: 0 auto;
   border: 1px solid #e7e9fc;
   padding: 12px 24px;
-  margin: 36px;
   padding: 12px 24px;
   border: 1px solid var(--cornflower, #E7E9FC);
   background: var(--cloud, #F4F4FD);
@@ -323,7 +326,7 @@ ul
   border-top: none;
 }
 .portfolio-title {
-  margin-bottom: 8px;
+  margin: 0 auto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
