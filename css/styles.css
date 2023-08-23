@@ -267,15 +267,18 @@ ul
 }
 .portfolio-container {
   margin: 0 auto;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .list-portfolio {
-  display: inline-flex;
-    align-items: flex-start;
-    gap: 24px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+  align-items: flex-start;
+  gap: 24px;
   margin: 0 auto;
 }
 .button {
-  margin-bottom: 72px;
   list-style: none;
   justify-content: center;
   gap: 24px;
@@ -326,7 +329,7 @@ ul
   border-top: none;
 }
 .portfolio-title {
-  margin: 0 auto;
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
