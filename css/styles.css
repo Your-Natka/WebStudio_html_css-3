@@ -13,15 +13,16 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+  margin: auto 0;
 }
 h1,
 h2,
 h3,
 h4,
 p,
-ul
- {
+ul {
   margin: 0;
+  padding: 0;
 }
 /* TOP LINE */
 /* HEADER CSS */
@@ -222,6 +223,7 @@ ul
 .section-for-list {
   display: flex;
   gap: 24px;
+  padding-right: 0;
 }
 .section-four-items {
   background-color: #ffffff;
@@ -266,7 +268,6 @@ ul
   justify-content: center;
   margin-bottom: 72px;
   align-items: flex-start;
-  gap: 24px;
   margin: 0 auto;
 }
 .button {
