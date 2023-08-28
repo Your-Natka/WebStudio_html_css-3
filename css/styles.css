@@ -130,8 +130,11 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
   }
+.main-section,
+.main-title {
+  margin: auto;
+} 
 .main-title { 
-  margin-bottom: 48px;
   margin: 0 auto;
   font-weight: 700;
   font-size: 56px;
@@ -140,6 +143,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--white); 
   max-width: 496px;
+  margin-bottom: 48px;
 }
 .main-button {
   border: 1px solid var(--cornflower, #4D5AE5);
