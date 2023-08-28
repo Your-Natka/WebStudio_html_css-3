@@ -265,9 +265,7 @@ ul {
  margin: 0 auto;
 }
 .portfolio-container {
-  margin: 0 auto;
-  padding-top: 96px;
-  padding-bottom: 120px;
+  margin-top: 96px;
 }
 .list-portfolio {
   display: flex;
